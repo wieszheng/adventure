@@ -40,8 +40,8 @@ class StoryGenerator:
         service_url = os.getenv("BASE_URL")
         if openai_api_key and service_url:
             return ChatOpenAI(
-                model_name="qwen-max",
-                openai_api_key=openai_api_key,
+                model="qwen-max",
+                api_key=openai_api_key,
                 base_url=service_url
             )
 

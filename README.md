@@ -39,7 +39,15 @@ adventure/
 ├── schemas/          # Pydantic模型和数据结构
 └── main.py          # 应用入口
 ```
+## 前端仓库
 
+前端项目地址: [Adventure Story Frontend](https://github.com/wieszheng/adventure-web)
+
+前端技术栈:
+- **前端**: React 19 + TypeScript
+- **构建工具**: Vite
+- **HTTP客户端**: Axios
+- **样式**: CSS3 (渐变、动画、响应式)
 
 ## 项目预览
 
@@ -49,15 +57,6 @@ adventure/
 ![故事详情页面](docs/success.png)
 ![故事详情页面](docs/fail.png)
 
-## 前端仓库
-
-前端项目地址: [Adventure Story Frontend](https://github.com/your-username/adventure-story-frontend)
-
-前端技术栈:
-- **前端**: React 19 + TypeScript
-- **构建工具**: Vite
-- **HTTP客户端**: Axios
-- **样式**: CSS3 (渐变、动画、响应式)
 
 ## 快速开始
 
